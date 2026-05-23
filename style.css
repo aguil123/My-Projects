@@ -1,0 +1,116 @@
+/* Page background and base typography settings */
+body {
+    margin: 0;
+    padding: 20px 0 0;
+    background-color: rgb(74, 49, 94);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Main heading style */
+h1{
+    font-size: 48px;
+    margin: 0;
+}
+
+/* Profile image appearance */
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+/* Card wrapper for the hero section */
+.card {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 30px 40px;
+}
+
+
+
+
+.card2 {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(112, 84, 206, 0.25);
+    padding: 30px 40px;
+    margin-top: 100px;
+}
+
+.card3 {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(78, 108, 190, 0.25);
+    padding: 30px 40px;
+    margin-top: 100px;
+}
+
+/* Skill logos under My Skills */
+.skills-logos img {
+    width: 100px;
+    height: 100px;
+    border-radius: 0;
+    margin: 0;
+}
+
+.skills-logos {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.skills-logos figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.skills-logos figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+    color: lightgray;
+}
+
+/* Subtitle style */
+h2{
+    font-size: 36px;
+    margin: 0;
+}
+
+h5{
+    margin: 8px 0 4px;
+    font-size: 18px;
+    color: black;
+}
+
+.website-link {
+    margin: 0;
+}
+
+h3{
+    font-size: 20px;
+    color: lightgray;
+}
+
+h4{
+    font-size: 20px;
+    color: lightgray;
+}
+
+
+/* Body text style */
+P{
+    font-size: 24px;
+    line-height: 1.5;
+    color: lightgray;
+}
